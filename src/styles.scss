@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+@import './dist/scss/variables.scss';
+@import './dist/scss/fonts.scss';
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: roboto;
+    font-weight: 400;
+}
+
+body{
+    background: $primary-background-color;
+}
+
+ul{
+    list-style: none;
+}
+
+textarea:focus, input:focus, button{
+    outline: none;
+}
+
+button{
+    cursor: pointer;
+}
+
+//Classes
+.container {
+    width: 35.0rem;
+    margin: 5.0rem auto;
+}
