@@ -6,7 +6,9 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "prod": "ng build --configuration production",
+    "deplo:ghdocs": "ng build --prod --output-path docs --base-href /curso-angular-todo-app/"
   },
   "private": true,
   "dependencies": {
